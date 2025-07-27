@@ -1,7 +1,7 @@
 import logo from "./logo.png";
 import login_bg from "./login-bg.png";
 import landing from "./landing.png";
-import {Coins, FunnelPlus, LayoutDashboard, List, Wallet} from "lucide-react";
+import {Coins, FunnelPlus, LayoutDashboard, List, Wallet, Home} from "lucide-react";
 
 export const assets = {
     logo,
@@ -10,6 +10,12 @@ export const assets = {
 }
 
 export const SIDE_BAR_DATA = [
+    {
+        id: "00",
+        label: "Home",
+        icon: Home,
+        path: "/home",
+    },
     {
         id: "01",
         label: "Dashboard",
