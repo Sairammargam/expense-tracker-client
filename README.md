@@ -1,44 +1,63 @@
-# 💰 Money Manager
+# 💸 Expense Tracker Client
 
-Money Manager is an application to help you track your income and expenses. Easily record transactions, manage different categories, and get visual insights into your personal finances.
+A modern frontend application for tracking your daily expenses and incomes. This is the client-side of the **Money Manager** system, built using React.js and designed for seamless integration with the backend.
 
 ## 🚀 Features
 
-- Add, edit, and delete income and expense entries
-- Categorize transactions (e.g., Food, Rent, Salary)
-- View transaction history
-- Visual reports and charts for better insights
-- Monthly/Yearly financial summaries
-- Responsive and user-friendly interface
+- 📊 Dashboard to view total expenses and income
+- ➕ Add and manage transactions
+- 📆 Filter transactions by date
+- 💰 Categorized spending overview
+- 🔒 Secure login and signup (if enabled)
+- 🌓 Responsive and modern UI
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js 
-- **Backend:** Java Spring Boot
-- **Database:** Postgresql
-- **Visualization:** Chart.js 
+- **React.js**
+- **Axios** – for API requests
+- **React Router** – for navigation
+- **Tailwind CSS / CSS Modules** – for styling (customize based on actual usage)
 
-## 🏗️ Getting Started
+## 🔧 Setup Instructions
 
-### Prerequisites
+1. **Clone the repository**
 
-- [Node.js](https://nodejs.org/) and npm installed 
-- [MySql](https://www.mysql.com/) 
-- Git
+```bash
+git clone https://github.com/Sairammargam/expense-tracker-client.git
+cd expense-tracker-client
+```
+2. Install dependencies
+ - npm install
 
-### Installation
+3. Start the development server
+   - npm start
 
-1. Clone the repository:
-   - git clone https://github.com/Sairammargam/money_manager.git
-   - cd money_manager
-2. Install dependencies:
-  - npm install
-3. Access the app in your browser or emulator as instructed.
+## 📂 Project Structure
+  src/
+├── components/
+├── pages/
+├── services/
+├── App.js
+└── index.js
 
-## ✨ Usage
 
-- Add financial transactions by selecting a category, entering amount and details.
-- Browse your transaction history in the dashboard.
-- Visualize spending with interactive charts and summaries.
-- Filter transactions by month, year, or category.
+## 📸 Screenshots
 
+<img width="1460" height="799" alt="Screenshot 2025-07-27 at 1 38 24 PM" src="https://github.com/user-attachments/assets/8df182cb-1dc6-4d0a-961b-90a97bd50510" />
+
+<img width="1460" height="791" alt="Screenshot 2025-07-27 at 1 38 37 PM" src="https://github.com/user-attachments/assets/b7612e82-d415-4bf9-b4e8-13726a4a8225" />
+
+<img width="1427" height="808" alt="Screenshot 2025-07-27 at 1 38 49 PM" src="https://github.com/user-attachments/assets/216e8cb4-bc3b-4cce-b93c-1cbdd4777ab9" />
+
+<img width="1439" height="798" alt="Screenshot 2025-07-27 at 1 39 00 PM" src="https://github.com/user-attachments/assets/ea4b33bc-8141-415a-9f86-3f2a2dd0a38c" />
+
+<img width="1460" height="797" alt="Screenshot 2025-07-27 at 1 39 21 PM" src="https://github.com/user-attachments/assets/31882976-5aac-4a05-b043-555da2870e41" />
+
+<img width="1465" height="809" alt="Screenshot 2025-07-27 at 1 39 37 PM" src="https://github.com/user-attachments/assets/8a37b2d8-b2df-4b76-8237-a1565f252f6d" />
+
+
+
+
+
+
+   
